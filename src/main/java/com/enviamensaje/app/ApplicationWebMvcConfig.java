@@ -1,4 +1,4 @@
-package com.rawsanj.bootjsp;
+package com.enviamensaje.app;
 
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

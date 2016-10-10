@@ -1,0 +1,82 @@
+/* 
+    Author     : Leo Gutierrez R. <leogutierrezramirez@gmail.com>
+*/
+
+body {
+    padding-top: 30px;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.demo-content {
+    padding: 15px;
+    font-size: 18px;
+    min-height: 300px;
+    margin-bottom: 10px;
+}
+
+.demo-content.bg-alt{
+}
+
+.col-md-7.bg-alt {
+    /* background: #bce8f1; */
+    background: #c7254e;
+}
+
+#words {
+
+}
+
+.box_e {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 991px){
+    .flexible{
+        min-height: 150px;
+        min-width: 300px;
+    }
+}
+
+.random_word {
+    font-weight: bold;
+}
+
+.view_in_rae {
+    text-decoration: underline;
+}
+
+.label-as-badge {
+    border-radius: 1em;
+}
+
+.navbar-collapse {
+    /*background: #737373;*/
+}
+
+input#placa {
+    width: 150px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+div.marginTop {
+    margin-top: 10px;
+}
+
+input#btnChangePassword, input#btnDeleteAccount {
+    width: 50%;
+}
+
+input#btnDeleteAccount {
+    background: red;
+}
+
+input#btnDeleteAccount:hover {
+    background: #EA0000;
+}
