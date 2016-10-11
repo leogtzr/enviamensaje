@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class AboutController {
 
     @RequestMapping("/about")
-    public String about(@RequestParam(value="name", required=false, defaultValue="World") String name, 
+    public String about(@RequestParam(value="phone", required=false, defaultValue="") String name, 
     		final ModelMap model) {
-        model.addAttribute("name", name);
+        model.addAttribute("phone", name);
         return "about";
     }
     

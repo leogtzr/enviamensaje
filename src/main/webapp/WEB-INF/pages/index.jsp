@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Adeudo vehicular Chihuahua - Activación</title>
+        <title>enviamensaje - Inicio</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width">
 
@@ -32,26 +32,23 @@
                     <div class="col-sm-9 col-md-8">
                         <div class="demo-content bg-alt">
 
-                            <form role="form" id="register_user" method="POST" action="send_sms.do">
+                            <form role="form" id="register_user" method="POST" action="sendsms">
                                 <hr class="colorgraph">
                                 <div class="row">
                                     <div class="col-xs-6 col-sm-6 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="phone" id="phone" class="form-control input-lg" placeholder="Teléfono" tabindex="1" required>
+                                            <input type="number" name="phone" id="phone" class="form-control input-lg" placeholder="Teléfono (ej. 6141234567)" tabindex="1" required>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" name="text" id="text" class="form-control input-lg" placeholder="Texto" tabindex="4" required>
+                                    <input type="text" name="text" id="text" class="form-control input-lg" placeholder="Texto" tabindex="4" required>
                                 </div>
                                 
-                                <div class="alert alert-danger" style="display:none" id="registration_error">
-                                </div>                                    
-
                                 <hr class="colorgraph">
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <input type="submit" value="Envíar SMS" id="register_user_btn" class="btn btn-primary btn-block btn-lg" tabindex="7">
+                                        <input type="submit" value="Envíar SMS" id="send_btn" class="btn btn-primary btn-block btn-lg" tabindex="7">
                                     </div>
                                 </div>
                             </form>
