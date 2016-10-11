@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Mensaje envíado - enviamensaje</title>
+<title>enviamensaje - Error</title>
 <meta name="viewport" content="width=device-width">
 
 <link
@@ -30,7 +30,9 @@
 
 		<div class="jumbotron">
 			<div class="container">
-				<h2>Mensaje envíado exitosamente a ${phone}</h2>
+				<h3>Error - Verifica si has ingresado un número válido (ej. 6141234567)</h3>
+				<hr>
+				<a href="https://enviamensaje.herokuapp.com/">Regresar</a>
 			</div>
 		</div>
 
