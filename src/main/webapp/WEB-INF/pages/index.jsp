@@ -42,7 +42,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="text" id="text" class="form-control input-lg" placeholder="Texto" tabindex="4" required>
+                                    <textarea name="text" id="text" class="form-control input-lg" placeholder="Texto" tabindex="4" required></textarea>
                                 </div>
                                 
                                 <hr class="colorgraph">
