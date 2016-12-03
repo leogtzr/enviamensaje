@@ -48,7 +48,7 @@
                                 <hr class="colorgraph">
                                 <div class="row">
                                     <div class="col-xs-6 col-md-6">
-                                        <input type="submit" value="Envíar SMS" id="send_btn" class="btn btn-primary btn-block btn-lg" tabindex="7">
+                                        <input type="submit" value="Envíar" id="send_btn" class="btn btn-primary btn-block btn-lg" tabindex="7">
                                     </div>
                                 </div>
                             </form>
