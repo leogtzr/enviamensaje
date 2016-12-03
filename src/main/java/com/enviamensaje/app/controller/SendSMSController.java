@@ -22,7 +22,7 @@ import org.apache.commons.lang3.StringUtils;
 @Controller
 @ComponentScan(value = "com.enviamensaje.config")
 public class SendSMSController {
-	
+
 	@Autowired
 	private SmsConfiguration smsConfiguration;
 	
