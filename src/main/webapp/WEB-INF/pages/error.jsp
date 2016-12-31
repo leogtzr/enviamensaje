@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE>
 <html>
 <head>
@@ -41,8 +40,6 @@
 		<footer>
 			<p>© Leo Gutiérrez R.</p>
 		</footer>
-	</div>
-
 	</div>
 
 </body>
